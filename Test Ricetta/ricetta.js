@@ -48,9 +48,17 @@ let coti = olt + oap + patok + dif;
 let cowe = patd + agw + pew + olw;
 
 // nella formula indicata non trovo l'errore per risolvere il conteggio sbagliato
-let altingr = (agw + pew + olw) / 2;
+/* UPDATE
+ho aggiustato la formula dividendo le operazioni per arrivare al risultato corretto, cercando online ho visto che è
+possibile fare direttamente l'operazione con un'unica funzione ma il risultato è errato, la funzione l'avevo indicata cosi
 
-console.log((28 + 3 + 9) / 2);
+let = altingr = (agw + per + olw) / 2;
+
+*/
+let altingrt = agw + pew + olw;
+let altingr = altingrt / 2;
+
+console.log(altingr);
 
 let cowu = pasw + agw + pew + olw;
 
@@ -63,7 +71,7 @@ console.log(
 console.log("Il peso totale di tutti gli ingredienti è: " + cowe + "grammi.");
 
 console.log(
-  "Il peso totale del piatto per persona è: " + pasw + altingr + "grammi."
+  "Il peso totale del piatto per persona è: " + (pasw + altingr) + "grammi."
 );
 
 console.log("Il tempo totale di cottura è: " + coti + " minuti.");
