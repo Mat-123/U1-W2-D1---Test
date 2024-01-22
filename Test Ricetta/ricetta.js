@@ -52,7 +52,7 @@ let cowe = patd + agw + pew + olw;
 ho aggiustato la formula dividendo le operazioni per arrivare al risultato corretto, cercando online ho visto che è
 possibile fare direttamente l'operazione con un'unica funzione ma il risultato è errato, la funzione l'avevo indicata cosi
 
-let = altingr = (agw + per + olw) / 2;
+let altingr = (agw + per + olw) / 2;
 console.log(altingr;)
 
 Dalla console della funzione Ispeziona penso che il problema sia riconducibile ad una conversione delle variabili da numeri a stringhe (?).
