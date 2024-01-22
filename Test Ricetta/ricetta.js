@@ -54,6 +54,7 @@ possibile fare direttamente l'operazione con un'unica funzione ma il risultato Ã
 
 let = altingr = (agw + per + olw) / 2;
 
+Dalla console della funzione Ispeziona penso che il problema sia riconducibile ad una conversione delle variabili da numeri a stringhe (?).
 */
 let altingrt = agw + pew + olw;
 let altingr = altingrt / 2;
